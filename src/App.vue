@@ -21,17 +21,23 @@ import AppFooter from './components/AppFooter.vue';
 
 <template>
 
-  <h1>
-    ciao
-  </h1>
+  <header>
+    <div>
+      <img src="../img/dc-logo.png" alt="logo">
+    </div>
+  </header>
 
-  <AppHeader />
-  <AppMain />
-  <AppFooter />
+  <main>
+    main
+  </main>
+
+  <footer>
+    footer
+  </footer>
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "assets/scss/main.scss" as *;
-@import "assets/scss/partials/reset.scss";
+@use "assets/scss/partials/reset";
 </style>
