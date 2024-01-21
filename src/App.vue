@@ -222,6 +222,7 @@ a {
   text-decoration: none;
   color: #658687;
 }
+
 header {
   display: flex;
   justify-content: space-around;
@@ -246,6 +247,7 @@ header {
   color: white;
   padding: 30px;
   font-size: 15px;
+  background-image: url(.);
 }
 
 .main-low {
