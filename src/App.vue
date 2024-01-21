@@ -39,7 +39,12 @@ import AppFooter from './components/AppFooter.vue';
 
   <main>
     <div class="main-top">
-      Content goes here
+    </div>
+
+    <div class="main-mid">
+      <div class="card">
+        {{ thumb }}
+      </div>
     </div>
 
     <div class="main-low">
@@ -247,7 +252,14 @@ header {
   color: white;
   padding: 30px;
   font-size: 15px;
-  background-image: url(.);
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  height: 300px;
+}
+
+.main-mid{
+  background-color: #1C1C1C;
+  height: 300px;
 }
 
 .main-low {
